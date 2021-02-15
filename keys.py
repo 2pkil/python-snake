@@ -1,4 +1,3 @@
-    #
     key = pygame.key.get_pressed()
     if key[pygame.K_w] and dirs ['W']:
         dx, dy = 0, -1
@@ -12,4 +11,3 @@
     if key[pygame.K_d] and dirs ['D']:
         dx, dy = 1, 0
         dirs = {'W': True, 'S': True, 'A': False, 'D': True}
-    #
