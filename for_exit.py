@@ -1,3 +1,3 @@
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            exit()
+for event in pygame.event.get():
+    if event.type == pygame.QUIT:
+        exit()
